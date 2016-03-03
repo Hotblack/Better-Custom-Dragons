@@ -1,0 +1,118 @@
+html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+
+.introText {
+
+  border-radius: 10px;
+  border: 1.5px solid black;
+
+  display: none;
+
+  background: #2f4f4f;
+  color: #FFFFFF;
+  font-size: 15px; 
+  color: #F3F315;
+
+  width: 500px;
+  height: 200px;
+
+}
+
+
+.intro {
+  
+  padding-top: 10px; 
+  padding-left: 100px;
+
+  opacity: 0.8; 
+
+
+}
+
+#map {
+
+        height: 100%;
+        display: none;
+
+margin-left: 82px;
+margin-top: 20px;
+
+        height: 400px;
+        width: 600px;
+
+
+
+}
+
+.mapView{
+  
+  display: inline-block;
+  padding-top: 10px; 
+  padding-left: 100px;
+
+  opacity: 0.8; 
+  position: relative;
+
+
+}
+
+.introButton {
+    background-color: #2f4f4f;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.mapButton {
+    background-color: #2f4f4f;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.saveView {
+    position: absolute;
+    display: none;
+    top: 10px;
+    left: 300px;
+    z-index: -1;
+    width: 100%;
+    margin-top: 10px;
+
+}
+
+.saveButton {
+    background-color: #2f4f4f;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 5px 80px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.title {
+  color: #000000;
+  font-family: Raleway, sans-serif; 
+  font-size: 20px; 
+  padding-top: 10px; 
+  padding-left: 50px;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  opacity: 0.7; 
+  }
